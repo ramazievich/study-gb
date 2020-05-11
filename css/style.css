@@ -318,8 +318,6 @@ input:-ms-input-placeholder {
 
 .carousel-lr:hover,
 .carousel-lr:active {
-  width: 40px;
-  min-height: 73px;
   fill: #f1eee9;
 }
 
@@ -374,4 +372,8 @@ input:-ms-input-placeholder {
   padding: 16px 40px 16px 40px;
   background-color: #998675;
   border-radius: 3px;
+}
+
+.carousel-btn:hover {
+  background-color: #c7b299;
 }
