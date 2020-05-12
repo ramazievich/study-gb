@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: "montserrat-regular";
+  font-family: "montserrat";
   src: url("../fonts/montserrat/regular/montserrat-regular.eot");
   src: url("../fonts/montserrat/regular/montserrat-regular.eot?#iefix")
       format("embedded-opentype"),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   src: url("../fonts/montserrat/light/montserrat-light.eot");
   src: url("../fonts/montserrat/light/montserrat-light.eot?#iefix")
       format("embedded-opentype"),
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-  font-family: "montserrat-ultralight";
+  font-family: "montserrat";
   src: url("../fonts/montserrat/ultralight/montserrat-ultralight.eot");
   src: url("../fonts/montserrat/ultralight/montserrat-ultralight.eot?#iefix")
       format("embedded-opentype"),
@@ -50,7 +50,7 @@
 }
 
 @font-face {
-  font-family: "roboto-regular";
+  font-family: "roboto";
   src: url("../fonts/roboto/regular/roboto-regular.eot");
   src: url("../fonts/roboto/regular/roboto-regular.eot?#iefix")
       format("embedded-opentype"),
@@ -62,7 +62,7 @@
 }
 
 @font-face {
-  font-family: "raleway-bold";
+  font-family: "raleway";
   src: url("../fonts/raleway/bold/raleway-bold.eot");
   src: url("../fonts/raleway/bold/raleway-bold.eot?#iefix")
       format("embedded-opentype"),
@@ -74,7 +74,7 @@
 }
 
 @font-face {
-  font-family: "raleway-extrabold";
+  font-family: "raleway";
   src: url("../fonts/raleway/extrabold/raleway-extrabold.eot");
   src: url("../fonts/raleway/extrabold/raleway-extrabold.eot?#iefix")
       format("embedded-opentype"),
@@ -86,7 +86,7 @@
 }
 
 @font-face {
-  font-family: "raleway-medium";
+  font-family: "raleway";
   src: url("../fonts/raleway/medium/raleway-medium.eot");
   src: url("../fonts/raleway/medium/raleway-medium.eot?#iefix")
       format("embedded-opentype"),
@@ -98,7 +98,7 @@
 }
 
 @font-face {
-  font-family: "raleway-regular";
+  font-family: "raleway";
   src: url("../fonts/raleway/regular/raleway-regular.eot");
   src: url("../fonts/raleway/regular/raleway-regular.eot?#iefix")
       format("embedded-opentype"),
@@ -110,7 +110,7 @@
 }
 
 @font-face {
-  font-family: "raleway-semiBold";
+  font-family: "raleway";
   src: url("../fonts/raleway/semibold/raleway-semiBold.eot");
   src: url("../fonts/raleway/semibold/raleway-semiBold.eot?#iefix")
       format("embedded-opentype"),
@@ -126,6 +126,12 @@
 }
 a {
   text-decoration: none;
+}
+svg:hover {
+  fill: #c7b299;
+}
+svg:active {
+  fill: #a48d72;
 }
 
 body {
@@ -149,14 +155,7 @@ body {
   box-sizing: border-box;
   background-color: black;
 }
-/*Отмена обтекания через псевдоэлемент
-.header-block {
-  content: "";
-  display: block;
-  width: 100%;
-  clear: both;
-}
-*/
+
 .header-top {
   padding: 40px 0 0 0;
   display: flex;
@@ -183,7 +182,7 @@ body {
 }
 
 .logo-txt {
-  font-family: raleway, open sans, sans-serif;
+  font-family: "raleway", open sans, sans-serif;
   font-size: 34px;
   font-weight: 400;
   color: #ffffff;
@@ -208,7 +207,7 @@ body {
 }
 
 .menu a {
-  font-family: montserrat light, verdana, sans-serif;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 300;
@@ -217,7 +216,7 @@ body {
   text-decoration: none;
 }
 .menu a:hover {
-  font-family: montserrat light, verdana, sans-serif;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 300;
@@ -227,7 +226,7 @@ body {
 }
 
 .menu a:active {
-  font-family: montserrat light, verdana, sans-serif;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 300;
@@ -246,60 +245,45 @@ body {
   fill: #fff;
   margin: 15px 0 0 65px;
 }
+.button-cart:active {
+  fill: #c7b299;
+}
 
-form.search {
-  margin: 15px 0 0 28px;
-  min-height: 24px;
+.search-form {
   width: 24px;
+  min-height: 24px;
+  margin: 16px 0 0 28px;
+  position: relative;
 }
 
-input[type="search"] {
-  width: 50px;
-  min-height: 40px;
+.search-form-img {
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
+
+.search-form-input {
+  width: 0;
+  min-height: 0;
+  padding: 5px;
   outline: none;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-size: 24px;
-  font-weight: 200;
-  color: #fff;
-  margin: -9px 0 0 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background: none;
+  box-sizing: border-box;
+  background-color: transparent;
   border: none;
+  position: absolute;
+  top: 40px;
+  left: -119px;
+  color: #fff;
+  font-size: 16px;
+  font-family: Arial;
+  text-transform: capitalize;
 }
 
-input[type="search"]:hover {
-  width: 200px;
-  margin: -9px 0 0 24px;
-  transform: translateX(-200px);
-  transition-duration: width 1.5s;
-  background-position: right;
-  background-color: #998675;
-  color: #fff;
-}
-
-input[type="search"]:focus {
-  width: 200px;
-  margin: -9px 0 0 24px;
-  transform: translateX(-200px, 0);
-  transition-duration: width 1.5s;
-  background-position: right;
-  background-color: #998675;
-  color: #fff;
-}
-
-input::-webkit-input-placeholder {
-  color: #fff;
-  font-style: normal;
-}
-input:-moz-placeholder {
-  color: #fff;
-  font-style: normal;
-}
-input:-ms-input-placeholder {
-  color: normal;
-  font-style: normal;
+.search-form-input:focus {
+  width: 150px;
+  min-height: 20px;
+  transition: width 0.3s ease;
+  border: 1.5px solid #998675;
 }
 
 .header-carousel {
@@ -331,7 +315,7 @@ input:-ms-input-placeholder {
 }
 
 .carousel-h2 {
-  font-family: raleway medium, open sans, sans-serif;
+  font-family: "raleway medium", open sans, sans-serif;
   font-size: 36px;
   line-height: 1.2;
   font-weight: 500;
@@ -340,7 +324,7 @@ input:-ms-input-placeholder {
   margin: 0 auto;
 }
 .carousel-h1 {
-  font-family: raleway extrabold, open sans extrabold, sans-serif;
+  font-family: "raleway extrabold", open sans extrabold, sans-serif;
   font-size: 52px;
   line-height: 1.2;
   font-weight: 800;
@@ -349,7 +333,7 @@ input:-ms-input-placeholder {
 }
 
 .carousel-txt-p {
-  font-family: montserrat light, verdana, sans-serif;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
@@ -361,19 +345,48 @@ input:-ms-input-placeholder {
 
 .carousel-btn {
   text-decoration: none;
+  width: 170px;
+  height: 53px;
   display: block;
-  font-family: raleway extrabold, open sans extrabold, sans-serif;
+  margin: 0 auto;
+  background-color: #998675;
+  border-radius: 3px;
+}
+.carousel-btn-txt {
+  font-family: "raleway extrabold", open sans extrabold, sans-serif;
   font-size: 14px;
   line-height: 23px;
   font-weight: 800;
   text-transform: uppercase;
   color: #ffffff;
-  margin: 0 auto;
-  padding: 16px 40px 16px 40px;
-  background-color: #998675;
-  border-radius: 3px;
+  display: block;
+  margin: 16px 0 0 38px;
 }
 
 .carousel-btn:hover {
   background-color: #c7b299;
+}
+
+.pagination {
+  width: 180px;
+  border: 1px solid black;  
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-img {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  
+}
+
+.pagination-img:hover {
+  background-color: transparent;
+  border: 2px solid gold;
+  transform: scale(1.2);
+
 }
