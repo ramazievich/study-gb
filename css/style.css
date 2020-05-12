@@ -368,25 +368,26 @@ body {
 }
 
 .pagination {
-  width: 180px;
-  border: 1px solid black;  
+  width: 100px;
+ 
   display: flex;
   justify-content: space-between;
+  margin: 323px 0 0 910px;
 }
 
 .pagination-img {
   display: block;
-  width: 25px;
-  height: 25px;
-  background-color: #ccc;
+  width: 11px;
+  height: 11px;
+  opacity: 0.5;
+  background-color: #ffffff;
   border-radius: 50%;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   
 }
 
 .pagination-img:hover {
   background-color: transparent;
-  border: 2px solid gold;
-  transform: scale(1.2);
-
+  border: 1px solid #d3c1ad;
+  transform: scale(1.5);
 }
