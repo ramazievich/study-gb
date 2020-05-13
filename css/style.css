@@ -138,11 +138,19 @@ body {
   width: 1920px;
   font-size: 14px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .container {
   width: 1920px;
   margin: 0 auto;
+}
+
+a:hover {
+  color: #c7b299;
+}
+a:active {
+  color: #d3c1ad;
 }
 
 .header-block {
@@ -157,7 +165,7 @@ body {
 }
 
 .header-top {
-  padding: 40px 0 0 0;
+  padding: 40px 376px 0 376px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -168,7 +176,6 @@ body {
 }
 
 .logo {
-  margin-left: 375px;
   fill: white;
   top: 40px;
   width: 64px;
@@ -194,46 +201,37 @@ body {
   color: #c7b299;
 }
 
-.header-nav {
-  margin: 20px 0 0 -77px;
-  min-height: 14px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-}
+
 .menu {
-  margin: 0 0 0 262px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: flex-end;
+  
 }
 
-.menu a {
-  font-family: "montserrat light", verdana, sans-serif;
-  font-size: 14px;
-  line-height: 1.2;
-  font-weight: 300;
+.menu-ul {
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 0;
+  display: flex;
+   
+  
+}
+
+
+.menu-link {
+  text-decoration: none;
   color: #ffffff;
-  margin: 0 0 0 27px;
-  text-decoration: none;
-}
-.menu a:hover {
-  font-family: "montserrat light", verdana, sans-serif;
+  font-family: 'Montserrat', verdana, sans-serif;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: normal;
   font-weight: 300;
-  color: #c7b299;
-  margin: 0 0 0 27px;
-  text-decoration: none;
+  padding-left: 30px; 
 }
 
-.menu a:active {
-  font-family: "montserrat light", verdana, sans-serif;
-  font-size: 14px;
-  line-height: 1.2;
-  font-weight: 300;
-  color: #d3c1ad;
-  margin: 0 0 0 27px;
-  text-decoration: none;
-}
+
+
 
 .button-cart {
   background: transparent;
@@ -243,7 +241,7 @@ body {
   width: 18px;
   min-height: 24px;
   fill: #fff;
-  margin: 15px 0 0 65px;
+  margin: 15px 0 0 35px;
 }
 .button-cart:active {
   fill: #c7b299;
@@ -343,27 +341,35 @@ body {
   margin-bottom: 50px;
 }
 
+
 .carousel-btn {
-  text-decoration: none;
-  width: 170px;
-  height: 53px;
+  
+
   display: block;
   margin: 0 auto;
-  background-color: #998675;
-  border-radius: 3px;
+  
+  
 }
+
 .carousel-btn-txt {
+  display: block;
+  text-decoration: none;
+  width: 170px;
+  min-height: 53px; 
   font-family: "raleway extrabold", open sans extrabold, sans-serif;
   font-size: 14px;
   line-height: 23px;
   font-weight: 800;
   text-transform: uppercase;
-  color: #ffffff;
-  display: block;
-  margin: 16px 0 0 38px;
+  color: #ffffff;  
+  background-color: #998675;
+  border-radius: 3px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 53px;
 }
 
-.carousel-btn:hover {
+.carousel-btn-txt:hover {
   background-color: #c7b299;
 }
 
