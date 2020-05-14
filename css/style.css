@@ -197,7 +197,7 @@ nav {
 }
 
 .logo-txt {
-  font-family: "raleway", open sans, sans-serif;
+  font-family: 'raleway', open sans, sans-serif;
   font-size: 34px;
   font-weight: 400;
   color: #ffffff;
@@ -226,7 +226,7 @@ nav {
 .menu-link {
   text-decoration: none;
   color: #ffffff;
-  font-family: "montserrat light", verdana, sans-serif;
+  font-family: 'montserrat light', verdana, sans-serif;
   font-size: 14px;
 
   font-style: normal;
@@ -312,7 +312,7 @@ nav {
 }
 
 .carousel-h2 {
-  font-family: "raleway medium", open sans, sans-serif;
+  font-family: 'raleway medium', open sans, sans-serif;
   font-size: 36px;
   line-height: 1.2;
   font-weight: 500;
@@ -321,7 +321,7 @@ nav {
   margin: 0 auto;
 }
 .carousel-h1 {
-  font-family: "raleway extrabold", open sans extrabold, sans-serif;
+  font-family: 'raleway extrabold', open sans extrabold, sans-serif;
   font-size: 52px;
   line-height: 1.2;
   font-weight: 800;
@@ -330,7 +330,7 @@ nav {
 }
 
 .carousel-txt-p {
-  font-family: "montserrat light", verdana, sans-serif;
+  font-family: 'montserrat light', verdana, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
@@ -350,7 +350,7 @@ nav {
   text-decoration: none;
   width: 170px;
   min-height: 53px;
-  font-family: "raleway extrabold", open sans extrabold, sans-serif;
+  font-family: 'raleway extrabold', open sans extrabold, sans-serif;
   font-size: 14px;
   line-height: 23px;
   font-weight: 800;
@@ -404,7 +404,6 @@ nav {
   width: 300px;
   padding: 10px 10px 0 10px;
   box-sizing: border-box;
-
 }
 
 .options-block {
@@ -414,7 +413,6 @@ nav {
   width: 300px;
   padding: 10px 10px 0 10px;
   box-sizing: border-box;
-
 }
 
 .options-block:after {
@@ -470,45 +468,9 @@ nav {
 }
 
 .options-block-txt {
-  font-family: "montserrat light", verdana, sans-serif;
+  font-family: 'montserrat light', verdana, sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   text-align: center;
-}
-
-/*
-.options {
-
-}
-
-.options-block {
-  width: 286px;
-  min-height: 240px;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  margin: 0 auto;
-  outline: 1px solid black;
-}
-.options-block svg {
-  fill: #555555;
-  margin: 0 auto;
-}
-
-.options-block-h2 {
-  font-family: 'raleway semibold', open sans semibold, sans-serif;
-  font-size: 22px;
-  line-height: 1.2;
-  font-weight: 600;
-  color: #555555;
-  text-align: center
-}
-
-.options-block-txt {
-font-family: "montserrat light", verdana, sans-serif;
-font-size: 14px;
-line-height: 24px;
-font-weight: 300;
-text-align: center;
 }
