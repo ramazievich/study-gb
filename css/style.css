@@ -155,15 +155,9 @@ a:active {
 }
 
 .header-block {
-  width: 100%;
-  min-height: 1024px;
-  margin: 0 auto;
-  padding-top: 40px;
-  background-image: url(/study-gb/img/header.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  box-sizing: border-box;
-  background-color: black;
+  padding: 40px;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
 }
 
 .header-top {
@@ -197,7 +191,7 @@ nav {
 }
 
 .logo-txt {
-  font-family: 'raleway', open sans, sans-serif;
+  font-family: "raleway", open sans, sans-serif;
   font-size: 34px;
   font-weight: 400;
   color: #ffffff;
@@ -226,12 +220,14 @@ nav {
 .menu-link {
   text-decoration: none;
   color: #ffffff;
-  font-family: 'montserrat light', verdana, sans-serif;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 14px;
-
   font-style: normal;
   font-weight: 300;
   padding-left: 30px;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .button-cart {
@@ -312,7 +308,7 @@ nav {
 }
 
 .carousel-h2 {
-  font-family: 'raleway medium', open sans, sans-serif;
+  font-family: "raleway medium", open sans, sans-serif;
   font-size: 36px;
   line-height: 1.2;
   font-weight: 500;
@@ -321,16 +317,17 @@ nav {
   margin: 0 auto;
 }
 .carousel-h1 {
-  font-family: 'raleway extrabold', open sans extrabold, sans-serif;
+  font-family: "raleway extrabold", open sans extrabold, sans-serif;
   font-size: 52px;
   line-height: 1.2;
   font-weight: 800;
   color: #ffffff;
   margin: 0 auto;
+  text-align: center;
 }
 
 .carousel-txt-p {
-  font-family: 'montserrat light', verdana, sans-serif;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
@@ -350,7 +347,7 @@ nav {
   text-decoration: none;
   width: 170px;
   min-height: 53px;
-  font-family: 'raleway extrabold', open sans extrabold, sans-serif;
+  font-family: "raleway extrabold", open sans extrabold, sans-serif;
   font-size: 14px;
   line-height: 23px;
   font-weight: 800;
@@ -420,14 +417,14 @@ nav {
   display: block;
   width: 70px;
   height: 3px;
-  background-color: #f1eee9;;
+  background-color: #f1eee9;
 }
 .options-block1:after {
   content: "";
   display: block;
   width: 70px;
   height: 3px;
-  background-color: #f1eee9;;
+  background-color: #f1eee9;
 }
 
 .options-block:hover .options-svg {
@@ -461,14 +458,14 @@ nav {
   width: 100%;
   margin: 0 0 10px 0;
   text-align: center;
-  font-family: 'raleway semibold', open sans semibold, sans-serif;
+  font-family: "raleway semibold", open sans semibold, sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: #555555;
 }
 
 .options-block-txt {
-  font-family: 'montserrat light', verdana, sans-serif;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
