@@ -392,6 +392,7 @@ nav {
   display: flex;
   justify-content: center;
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .options-block1 {
@@ -470,4 +471,62 @@ nav {
   line-height: 24px;
   font-weight: 300;
   text-align: center;
+}
+
+.screenshot {
+  margin: 0 auto;
+  width: 1920px;
+  height: 700px;
+  background-color: #fbfaf8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screenshot-h2 {
+  width: 500px;
+  height: 30px;
+  font-family: "raleway semibold", open sans semibold, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #555555;
+  margin-top: 85px;
+}
+
+.screenshot-txt {
+  width: 719px;
+  height: 44px;
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8c8c8c;
+  margin: 20px 0 0 0;
+}
+
+.screenshot-img {
+  position: relative;
+  width: 1230px;
+}
+
+.img-left {
+  position: absolute;
+  margin: 122px 0 0 0;
+}
+
+.img-center {
+  position: absolute;
+  margin: 40px 0 0 230px;
+}
+
+.img-right {
+  position: absolute;
+  margin: 122px 0 0 460px;
 }
