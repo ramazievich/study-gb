@@ -192,7 +192,7 @@ nav {
 }
 
 .logo-txt {
-  font-family: "raleway", open sans, sans-serif;
+  font-family: "raleway", "open sans", sans-serif;
   font-size: 34px;
   font-weight: 400;
   color: #ffffff;
@@ -309,7 +309,7 @@ nav {
 }
 
 .carousel-h2 {
-  font-family: "raleway medium", open sans, sans-serif;
+  font-family: "raleway medium", "open sans", sans-serif;
   font-size: 36px;
   line-height: 1.2;
   font-weight: 500;
@@ -318,7 +318,7 @@ nav {
   margin: 0 auto;
 }
 .carousel-h1 {
-  font-family: "raleway extrabold", open sans extrabold, sans-serif;
+  font-family: "raleway extrabold", "open sans extrabold", sans-serif;
   font-size: 52px;
   line-height: 1.2;
   font-weight: 800;
@@ -328,7 +328,7 @@ nav {
 }
 
 .carousel-txt-p {
-  font-family: "montserrat light", verdana, sans-serif;
+  font-family: "montserrat light", "verdana", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
@@ -343,7 +343,7 @@ nav {
   text-decoration: none;
   width: 170px;
   min-height: 53px;
-  font-family: "raleway extrabold", open sans extrabold, sans-serif;
+  font-family: "raleway extrabold", "open sans extrabold", sans-serif;
   font-size: 14px;
   font-weight: 800;
   text-transform: uppercase;
@@ -455,14 +455,14 @@ nav {
   width: 100%;
   margin: 0 0 10px 0;
   text-align: center;
-  font-family: "raleway semibold", open sans semibold, sans-serif;
+  font-family: "raleway semibold", "open sans semibold", sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: #555555;
 }
 
 .options-block-txt {
-  font-family: "montserrat light", verdana, sans-serif;
+  font-family: "montserrat light", "verdana", sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
@@ -482,7 +482,7 @@ nav {
 .screenshot-h2 {
   width: 500px;
   height: 30px;
-  font-family: "raleway semibold", open sans semibold, sans-serif;
+  font-family: "raleway semibold", "open sans semibold", sans-serif;
   font-size: 30px;
   font-weight: 600;
   font-style: normal;
@@ -551,7 +551,7 @@ nav {
   text-decoration: none;
   width: 170px;
   min-height: 50px;
-  font-family: "raleway extrabold", open sans extrabold, sans-serif;
+  font-family: "raleway extrabold", "open sans extrabold", sans-serif;
   font-size: 14px;
   font-weight: 800;
   text-transform: uppercase;
@@ -571,7 +571,7 @@ nav {
 .advertising-txt {
   width: 530px;
   height: 27px;
-  font-family: "raleway regular", open sans regular, sans-serif;
+  font-family: "raleway regular", "open sans regular", sans-serif;
   font-size: 28px;
   font-weight: normal;
   font-stretch: normal;
@@ -585,7 +585,7 @@ nav {
 .advertising-logo-txt {
   width: 530px;
   height: 27px;
-  font-family: "raleway regular", open sans regular, sans-serif;
+  font-family: "raleway regular", "open sans regular", sans-serif;
   font-size: 28px;
   font-weight: normal;
   font-stretch: normal;
@@ -603,7 +603,7 @@ nav {
 .advertising-p {
   width: 463px;
   height: 18px;
-  font-family: Montserrat;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 18px;
   font-weight: 300;
   font-stretch: normal;
