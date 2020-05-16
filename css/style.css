@@ -531,6 +531,7 @@ nav {
   min-height: 150px;
   background-image: linear-gradient(to top, #211b19, #4e3427);
   padding: 0 374px 0 376px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -613,4 +614,67 @@ nav {
   text-align: left;
   color: #615855;
   margin: 8px;
+}
+
+.products {
+}
+
+.products-h2 {
+  height: 28px;
+  font-family: "raleway semibold", "open sans semibold", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #555555;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 23px;
+}
+
+.products-p {
+  width: 719px;
+  height: 44px;
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8c8c8c;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.products-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.products-btn-item {
+  margin: 0 5px 0 5px;
+  padding: 13px 22px 10px 22px;
+  min-height: 32px;
+  border: none;
+  border-radius: 3px;
+  border: solid 1px #ebebeb;
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+.products-btn-item:hover {
+  background-color: #998675;
+  color: #fff;
 }
