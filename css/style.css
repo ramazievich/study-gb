@@ -145,6 +145,7 @@ body {
 }
 
 .container {
+  width: 1920px;
 }
 
 a:hover {
@@ -337,11 +338,6 @@ nav {
   margin-bottom: 50px;
 }
 
-.carousel-btn {
-  display: block;
-  margin: 0 auto;
-}
-
 .carousel-btn-txt {
   display: block;
   text-decoration: none;
@@ -349,10 +345,10 @@ nav {
   min-height: 53px;
   font-family: "raleway extrabold", open sans extrabold, sans-serif;
   font-size: 14px;
-  line-height: 23px;
   font-weight: 800;
   text-transform: uppercase;
   color: #ffffff;
+  box-shadow: inset 0px -3px 0 0 #736357;
   background-color: #998675;
   border-radius: 3px;
   margin: 0 auto;
@@ -362,14 +358,14 @@ nav {
 
 .carousel-btn-txt:hover {
   background-color: #c7b299;
+  color: #ffffff;
 }
 
 .pagination {
   width: 100px;
-
   display: flex;
   justify-content: space-between;
-  margin: 323px 0 0 910px;
+  margin: 324px 0 0 872px;
 }
 
 .pagination-img {
@@ -529,4 +525,92 @@ nav {
 .img-right {
   position: absolute;
   margin: 122px 0 0 460px;
+}
+
+.advertising {
+  min-height: 150px;
+  background-image: linear-gradient(to top, #211b19, #4e3427);
+  padding: 0 374px 0 376px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.advertising-text {
+  float: left;
+  margin-right: 373px;
+}
+
+.advertising-btn {
+  float: left;
+  margin: 50px 0 0 0;
+}
+
+.btn-txt {
+  display: block;
+  text-decoration: none;
+  width: 170px;
+  min-height: 50px;
+  font-family: "raleway extrabold", open sans extrabold, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-shadow: inset 0px -3px 0 0 #736357;
+  background-color: #998675;
+  border-radius: 3px;
+  margin: 0 0 0 0;
+  text-align: center;
+  line-height: 53px;
+}
+.btn-txt:hover {
+  background-color: #c7b299;
+  color: #ffffff;
+}
+
+.advertising-txt {
+  width: 530px;
+  height: 27px;
+  font-family: "raleway regular", open sans regular, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.advertising-logo-txt {
+  width: 530px;
+  height: 27px;
+  font-family: "raleway regular", open sans regular, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c7b299;
+}
+
+.advertising-logo-txt:hover {
+  color: #fff;
+}
+
+.advertising-p {
+  width: 463px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #615855;
+  margin: 8px;
 }
