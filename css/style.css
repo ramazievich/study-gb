@@ -25,7 +25,7 @@
     url("../fonts/montserrat/regular/montserrat-regular.woff2") format("woff2"),
     url("../fonts/montserrat/regular/montserrat-regular.woff") format("woff"),
     url("../fonts/montserrat/regular/montserrat-regular.ttf") format("ttf");
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -1098,7 +1098,7 @@ nav {
 .mobile-p {
   width: 665px;
   height: 100px;
-  font-family: Montserrat;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 16px;
   font-weight: 300;
   font-stretch: normal;
@@ -1111,7 +1111,7 @@ nav {
 }
 .mobile-list {
   height: 112px;
-  font-family: Montserrat;
+  font-family: "montserrat light", verdana, sans-serif;
   font-size: 16px;
   font-weight: 300;
   font-stretch: normal;
@@ -1139,4 +1139,72 @@ nav {
   left: -29px;
   background-image: url(../img/list-marker.svg);
   background-size: cover;
+}
+
+.progress {
+  width: 1920px;
+  min-height: 300px;
+  background-image: linear-gradient(to top, #211b19, #4e3427);
+  display: flex;
+  justify-content: center;
+  
+}
+.progress-box {
+  display: block;
+  width: 140px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px 0 30px;
+}
+
+.progress-box:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 30px 0 0 55px;
+}
+
+
+
+.progress-svg {
+  margin: 69px 0 0 46px;
+}
+
+.progress-box:hover svg.progress-svg {
+  fill: white;
+
+}
+.progress-point {
+  display: block;
+  height: 35px;
+  font-family: "montserrat ultralight", verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 30px 0 0 0;
+  
+}
+
+.progress-txt {
+  height: 11px;
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c7b299;
+  margin: 19px 0 0 0;
+  
 }
