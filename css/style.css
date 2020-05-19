@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-family: "fontawesome-webfont";
   src: url("../fonts/fontawesome/fontawesome-webfont.eot");
@@ -379,6 +386,9 @@ nav {
   text-align: center;
   margin-top: 14px;
   margin-bottom: 50px;
+  display: block;
+width: 100%;
+  
 }
 
 .carousel-btn-txt {
@@ -607,6 +617,7 @@ nav {
 
 .advertising {
   min-height: 150px;
+  background-image: -o-linear-gradient(bottom, #211b19, #4e3427);
   background-image: -webkit-gradient(
     linear,
     left bottom,
@@ -614,7 +625,6 @@ nav {
     from(#211b19),
     to(#4e3427)
   );
-  background-image: -o-linear-gradient(bottom, #211b19, #4e3427);
   background-image: linear-gradient(to top, #211b19, #4e3427);
   padding: 0 374px 0 376px;
   display: -webkit-box;
@@ -942,6 +952,7 @@ nav {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
+  -webkit-box-shadow: inset 0px -3px 0 0 #736357;
   box-shadow: inset 0px -3px 0 0 #736357;
   background-color: #998675;
 }
@@ -1068,6 +1079,8 @@ nav {
   width: 1920px;
   min-height: 695px;
   background-color: #fbfaf8;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1143,15 +1156,32 @@ nav {
 .progress {
   width: 1920px;
   min-height: 300px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#211b19),
+    to(#4e3427)
+  );
+  background-image: -o-linear-gradient(bottom, #211b19, #4e3427);
   background-image: linear-gradient(to top, #211b19, #4e3427);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .progress-box {
   display: block;
   width: 140px;
   min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin: 0 30px 0 30px;
 }
@@ -1167,6 +1197,7 @@ nav {
 
 .progress-svg {
   margin: 69px 0 0 46px;
+  fill: rgb(199, 178, 153);
 }
 
 .progress-box:hover svg.progress-svg {
@@ -1186,6 +1217,9 @@ nav {
   color: #ffffff;
   margin: 30px 0 0 0;
 }
+.progress-box:hover .progress-point {
+  color: rgb(199, 178, 153);
+}
 
 .progress-txt {
   height: 11px;
@@ -1200,4 +1234,8 @@ nav {
   text-transform: uppercase;
   color: #c7b299;
   margin: 19px 0 0 0;
+}
+
+.progress-box:hover .progress-txt {
+  color: #ffffff;
 }
