@@ -749,7 +749,7 @@ nav {
   width: 719px;
   font-family: "montserrat light", verdana, sans-serif;
   font-size: 16px;
-  line-height: 28px;
+  margin: 0 auto;
   font-weight: 300;
   line-height: 1.75;
   text-align: center;
