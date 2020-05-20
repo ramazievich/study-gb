@@ -749,16 +749,11 @@ nav {
   width: 719px;
   font-family: "montserrat light", verdana, sans-serif;
   font-size: 16px;
+  line-height: 28px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.75;
-  letter-spacing: normal;
   text-align: center;
   color: #8c8c8c;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 40px;
 }
 .products-btn {
   display: -webkit-box;
@@ -767,7 +762,7 @@ nav {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 40px;
+  margin: 40px 0 40px 0;
 }
 
 .products-btn-item {
@@ -1092,7 +1087,6 @@ nav {
 
 .mobile-h2 {
   width: 408px;
-  height: 24px;
   font-family: "raleway semibold", "open sans semibold", sans-serif;
   font-size: 30px;
   font-weight: 600;
@@ -1113,7 +1107,6 @@ nav {
   font-style: normal;
   text-align: justify;
   line-height: 1.75;
-  letter-spacing: normal;
   color: #8c8c8c;
   margin: 38px 0 44px 0;
 }
@@ -1328,7 +1321,7 @@ nav {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  padding: 9px 10px 9px 10px;
+  padding: 9px 11px 9px 10px;
   background-color: #363636;
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
