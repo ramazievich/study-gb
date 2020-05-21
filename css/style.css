@@ -1497,3 +1497,283 @@ nav {
 .partners-img:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
 }
+
+.footer1 {
+  background-color: #191919;
+  padding: 80px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-txt {
+  width: 261px;
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #555555;
+  margin: 0;
+}
+.footer-txt2 {
+  width: 270px;
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #555555;
+  margin: 0;
+}
+
+.footer-h2 {
+  font-family: "raleway bold", open sans bold, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.footer-h2-twitter {
+  font-family: "raleway bold", open sans bold, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.about {
+  width: 261px;
+  display: block;
+  margin: 0 30px 0 30px;
+}
+
+.logo-block-footer1 {
+  margin-bottom: 29px;
+}
+
+.about-link {
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d1d1d1;
+  display: block;
+  margin-top: 33px;
+}
+
+.about-link:after {
+  content: "  border-left: 8px solid #00bff3";
+  transition: 500ms;
+  display: block;
+  position: absolute;
+  display: block;
+  float: left;
+  border: 5px solid transparent;
+  border-left: 8px solid #00bff3;
+  margin: -13px 0 0 84px;
+  display: none;
+}
+
+.about-link:hover::after {
+  content: "";
+  transition: 500ms;
+  color: #00bff3;
+  display: block;
+}
+
+.footer-recent-posts {
+  min-width: 270px;
+  margin: 28px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px 0 30px;
+}
+
+.posts-date {
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #363636;
+}
+
+.posts-date2 {
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #363636;
+}
+
+.recent-posts-link {
+  display: block;
+  width: 266px;
+  text-decoration: none;
+  margin-top: 18px;
+  border-bottom: 1px solid #252525;
+  padding-bottom: 20px;
+}
+
+.recent-posts-last {
+  display: block;
+  width: 266px;
+  text-decoration: none;
+  margin-top: 18px;
+}
+
+.recent-posts-last2 {
+  display: block;
+  width: 266px;
+  text-decoration: none;
+  margin-top: 18px;
+}
+
+.recent-posts-link:hover .posts-date {
+  transition: 500ms;
+  color: #ffffff;
+}
+
+.recent-posts-link:active .posts-date {
+  transition: 500ms;
+  color: #e2e2e2;
+}
+
+.recent-posts-last:hover .posts-date {
+  transition: 500ms;
+  color: #ffffff;
+}
+
+.recent-posts-last:active .posts-date {
+  transition: 500ms;
+  color: #e2e2e2;
+}
+
+.recent-posts-link:hover .posts-p1 {
+  transition: 500ms;
+  color: #c7b299;
+}
+
+.recent-posts-link:active .posts-p1 {
+  transition: 500ms;
+  color: #b19c84;
+}
+
+.recent-posts-link:hover .posts-p2 {
+  transition: 500ms;
+  color: #c7b299;
+}
+
+.recent-posts-link:active .posts-p2 {
+  transition: 500ms;
+  color: #b19c84;
+}
+.recent-posts-last:hover .posts-p3 {
+  transition: 500ms;
+  color: #c7b299;
+}
+
+.recent-posts-last:active .posts-p3 {
+  transition: 500ms;
+  color: #b19c84;
+}
+
+.twitter {
+  width: 270px;
+}
+
+.twet-api {
+  color: #00bff3;
+}
+
+.twet-api:hover {
+  transition: 500ms;
+  color: #0591b8;
+}
+
+.twet-api:active {
+  transition: 500ms;
+  color: #00bff3;
+}
+
+.twet-link {
+  color: #959595;
+}
+
+.twet-link:hover {
+  transition: 500ms;
+  color: #bbbaba;
+}
+
+.twet-link:active {
+  transition: 500ms;
+  color: #959595;
+}
+
+.widget {
+  width: 280px;
+  display: block;
+  margin: 0 30px 0 30px;
+}
+
+.widget-h2 {
+  font-family: "raleway bold", open sans bold, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.widget-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.widget-img-all {
+  transition: 500ms; /* Время эффекта */
+  display: block;
+  margin: 5px;
+}
+
+.widget-img-all:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
