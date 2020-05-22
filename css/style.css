@@ -1442,7 +1442,12 @@ nav {
   color: #c7b299;
 }
 
-.recent-posts-a:after {
+.recent-posts-box:hover .recent-posts-a:hover {
+  transition: 500ms;
+  color: #94826c;
+}
+
+.recent-posts-a::after {
   content: "";
   display: block;
   position: absolute;
@@ -1453,9 +1458,14 @@ nav {
   margin: -13px 0 0 84px;
 }
 
-.recent-posts-box:hover .recent-posts-a:after {
+.recent-posts-box:hover .recent-posts-a::after {
   transition: 500ms;
   border-left: 8px solid #c7b299;
+}
+
+.recent-posts-box:hover .recent-posts-a:hover::after {
+  transition: 500ms;
+  border-left: 8px solid #756755;
 }
 
 .box-btn {
@@ -1776,4 +1786,105 @@ nav {
 
 .widget-img-all:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.footer2 {
+  height: 110px;
+  background-color: #111111;
+  color: #555555;
+  font-family: "montserrat light", verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  padding: 0 375px 0 375px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+a.footer2-link {
+  text-decoration: none;
+  color: #959595;
+}
+
+a.footer2-link:hover {
+  transition: 500ms;
+  color: #c7b299;
+}
+
+a.footer2-link:hover {
+  transition: 500ms;
+  color: #a5927a;
+}
+
+.copyright-left {
+  display: flex;
+}
+
+.copy {
+  display: block;
+}
+
+.copy::after {
+  content: " ";
+  background: #555555;
+  width: 1px;
+  height: 13px;
+  float: right;
+  margin: 3px 10px 0 10px;
+}
+
+a.policy {
+  display: block;
+  color: #555555;
+}
+
+.policy::after {
+  content: " ";
+  background: #555555;
+  width: 1px;
+  height: 13px;
+  float: right;
+  margin: 3px 10px 0 10px;
+}
+
+.faq {
+  display: block;
+}
+
+.faq::after {
+  content: " ";
+  background: #555555;
+  width: 1px;
+  height: 13px;
+  float: right;
+  margin: 3px 10px 0 10px;
+}
+
+a.support {
+  display: block;
+  color: #555555;
+}
+
+.copyright-right {
+  display: flex;
+}
+
+.designed {
+  display: block;
+}
+
+.designed::after {
+  content: " ";
+  background: #555555;
+  width: 1px;
+  height: 13px;
+  float: right;
+  margin: 3px 10px 0 10px;
 }
