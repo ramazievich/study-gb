@@ -2,6 +2,7 @@
   .clearfix {
     overflow: auto;
   }
+
   a {
     text-decoration: none;
   }
@@ -1763,3 +1764,118 @@
     margin: 3px 10px 0 10px;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+    .header-carousel {
+        display: none;
+    }
+
+    .pagination {
+        display: none;
+      }
+  
+    
+    .options {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      align-content: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  
+    .options-block1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 400px;
+      padding: 10px 10px 0 10px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  
+    .options-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 400px;
+      padding: 10px 10px 0 10px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  
+    .options-block:after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 3px;
+      background-color: #f1eee9;
+    }
+    .options-block1:after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 3px;
+      background-color: #f1eee9;
+    }
+  
+    .options-block:hover .options-svg {
+      fill: #c7b299;
+    }
+    .options-block1:hover .options-svg {
+      fill: #c7b299;
+    }
+  
+    .options-block:hover .options-block-h2 {
+      color: #c7b299;
+    }
+    .options-block1:hover .options-block-h2 {
+      color: #c7b299;
+    }
+  
+    .options-block:hover:after {
+      background-color: #c7b299;
+    }
+    .options-block1:hover:after {
+      background-color: #c7b299;
+    }
+  
+    .options-svg {
+      display: block;
+      fill: #555555;
+      margin: 0 0 20px 0;
+    }
+  
+    .options-block-h2 {
+      width: 100%;
+      margin: 0 0 10px 0;
+      text-align: center;
+      font-family: "raleway semibold", "open sans semibold", sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      color: #555555;
+    }
+  
+    .options-block-txt {
+      font-family: "montserrat light", "verdana", sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 300;
+      text-align: center;
+    }
+  
+  }
+  

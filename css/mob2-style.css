@@ -1,7 +1,9 @@
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 576px) {
     .clearfix {
       overflow: auto;
     }
+  
     a {
       text-decoration: none;
     }
@@ -55,6 +57,7 @@
       justify-content: space-between;
       margin: 0 auto;
     }
+  
     nav {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -95,8 +98,6 @@
     .logo-txt:hover {
       color: #c7b299;
     }
-
-    
   
     .menu {
       display: -webkit-box;
@@ -186,142 +187,17 @@
     }
   
     .header-carousel {
-      margin: 150px 50px 0 50px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
+        display: none;
     }
   
-    .carousel-lr {
-      width: 40px;
-      min-height: 73px;
-      fill: #d3c1ad;
-      margin: 110px 0 0 0;
-    }
-  
-    .carousel-lr:hover,
-    .carousel-lr:active {
-      fill: #f1eee9;
-    }
-  
-    .carousel-txt {
-      width: 589px;
-      min-height: 100%;
-      margin: 0 auto;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -ms-flex-item-align: center;
-      align-self: center;
-    }
-  
-    .carousel-h2 {
-      font-family: "raleway medium", "open sans", sans-serif;
-      font-size: 36px;
-      line-height: 1.2;
-      font-weight: 500;
-      font-style: normal;
-      text-align: center;
-      color: #fff;
-      margin: 0 0 19px 0;
-    }
-    .carousel-h1 {
-      font-family: "raleway extrabold", "open sans extrabold", sans-serif;
-      font-size: 52px;
-      line-height: 1.2;
-      font-weight: 800;
-      color: #ffffff;
-      margin: 0 auto;
-      text-align: center;
-    }
-  
-    .carousel-txt-p {
-      font-family: "montserrat light", "verdana", sans-serif;
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 300;
-      color: #ffffff;
-      text-align: center;
-      margin-top: 14px;
-      margin-bottom: 50px;
-      display: block;
-      width: 100%;
-    }
-  
-    .carousel-btn-txt {
-      display: block;
-      text-decoration: none;
-      width: 170px;
-      min-height: 53px;
-      font-family: "raleway extrabold", "open sans extrabold", sans-serif;
-      font-size: 14px;
-      font-weight: 800;
-      text-transform: uppercase;
-      color: #ffffff;
-      -webkit-box-shadow: inset 0px -3px 0 0 #736357;
-      box-shadow: inset 0px -3px 0 0 #736357;
-      background-color: #998675;
-      border-radius: 3px;
-      margin: 0 auto;
-      text-align: center;
-      line-height: 53px;
-    }
-  
-    .carousel-btn-txt:hover {
-      background-color: #c7b299;
-      color: #ffffff;
-    }
-  
-    .carousel-btn-txt:active {
-      background-color: #998675;
-      color: #fff;
-    }
-  
-    .pagination {
-      width: 100px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      margin: 61px 0 0 419px;
-    }
-  
-    .pagination-img {
-      display: block;
-      width: 11px;
-      height: 11px;
-      opacity: 0.5;
-      background-color: #ffffff;
-      border-radius: 50%;
-      border: 1px solid transparent;
-    }
-  
-    .pagination-img:hover {
-      background-color: transparent;
-      border: 1px solid #d3c1ad;
-      -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-      transform: scale(1.5);
-    }
-  
+    
     .options {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
+      flex-direction: row;
+      flex-wrap: wrap;
       justify-content: center;
+      align-items: flex-start;
+      align-content: center;
       margin-top: 40px;
       margin-bottom: 40px;
     }
@@ -335,7 +211,7 @@
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      width: 300px;
+      width: 400px;
       padding: 10px 10px 0 10px;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
@@ -350,7 +226,7 @@
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      width: 300px;
+      width: 400px;
       padding: 10px 10px 0 10px;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
@@ -460,32 +336,32 @@
   
     .screenshot-image {
       width: 1020px;
-      height: 400px;  
+      height: 400px;
       padding: 0 0 0 0;
       margin: 25px 0 0 0;
     }
   
     /*
-    .screenshot-img {
-      position: relative;
-      width: 1230px;
-    }
-    
-    .img-left {
-      position: absolute;
-      margin: 122px 0 0 0;
-    }
-    
-    .img-center {
-      position: absolute;
-      margin: 40px 0 0 230px;
-    }
-    
-    .img-right {
-      position: absolute;
-      margin: 122px 0 0 460px;
-    }
-    */
+      .screenshot-img {
+        position: relative;
+        width: 1230px;
+      }
+      
+      .img-left {
+        position: absolute;
+        margin: 122px 0 0 0;
+      }
+      
+      .img-center {
+        position: absolute;
+        margin: 40px 0 0 230px;
+      }
+      
+      .img-right {
+        position: absolute;
+        margin: 122px 0 0 460px;
+      }
+      */
   
     .advertising {
       width: 100%;
@@ -1765,4 +1641,5 @@
       margin: 3px 10px 0 10px;
     }
   }
+  
   
