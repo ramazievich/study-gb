@@ -233,6 +233,10 @@ nav {
   color: #c7b299;
 }
 
+.mobile-menu-checkbox,
+.mobile-menu-btn,
+.mobile-menu-icon {display: none;}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -284,7 +288,7 @@ nav {
 .search-form {
   width: 24px;
   min-height: 24px;
-  margin: 15px 0 0 28px;
+  margin: 0 0 0 28px;
   position: relative;
 }
 
