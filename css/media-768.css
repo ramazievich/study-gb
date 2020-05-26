@@ -13,6 +13,20 @@
     margin: -150px 0 0 0;
   }
 
+  .logo {
+    transform: scale(1.5);
+  }
+
+  .logo-txt {
+    font-family: "raleway", "open sans", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #ffffff;
+    display: block;
+    margin-left: 15px;
+    padding: 0 0 0 0;
+  }
+
   .header-carousel {
     display: none;
   }

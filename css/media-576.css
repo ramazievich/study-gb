@@ -104,18 +104,14 @@
     transition-delay: 0.5s;
     list-style: none;
     padding-left: 0;
-    margin-top: 30px;
-  }
-
-  .menu-ul-li {
-    font-size: 26px;
-    padding-bottom: 15px;
+    margin-top: 1px;
   }
 
   .menu-link {
     text-decoration: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
+    line-height: 1.43;
   }
 
   .mobile-menu-checkbox {
@@ -159,7 +155,9 @@
     border: none;
     padding: 0;
     min-height: 60px;
-    margin-left: -50px;
+    margin-left: -116px;
+    margin-top: 10px;
+    transform: scale(2);
   }
   .button-cart:active {
     fill: #c7b299;
@@ -169,7 +167,8 @@
     position: relative;
     width: 24px;
     min-height: 24px;
-    margin: -43px 0 0 139px;
+    margin: -42px 0 0 139px;
+    transform: scale(2);
   }
 
   .search-form-img {
@@ -344,7 +343,6 @@
 
   .products-list {
     width: 100%;
-    max-width: 576px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -413,23 +411,25 @@
   }
 
   .products-list-btn1 {
-    left: 137px;
+    left: 223px;
+    top: -300px;
   }
 
   .products-list-btn2 {
-    left: 250px;
+    left: 402px;
+    top: -300px;
   }
 
   .products-list-block:hover .products-list-btn1 {
     display: block;
     outline: none;
-    transform: scale(2);
+    transform: scale(3);
   }
 
   .products-list-block:hover .products-list-btn2 {
     display: block;
     outline: none;
-    transform: scale(2);
+    transform: scale(3);
   }
 
   .btn-load-more {
