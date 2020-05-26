@@ -3,6 +3,10 @@
     overflow: auto;
   }
 
+  .container {
+    width: 1024px;
+  }
+
   .mobile-menu-checkbox,
   .mobile-menu-btn,
   .mobile-menu-icon {
