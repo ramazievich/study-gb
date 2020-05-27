@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media screen and (max-width: 420px) {
   .container {
     width: 320px;
@@ -15,6 +22,8 @@
   }
 
   .logo {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
     transform: scale(0.8);
   }
 
@@ -31,8 +40,14 @@
 
   .mobile-menu {
     position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     padding: 0px 12px;
     top: 0;
@@ -44,6 +59,8 @@
 
   .mobile-menu-checkbox:checked ~ .mobile-menu-container {
     height: 573px;
+    -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
     transition-delay: 0s;
     top: 0;
     left: -27px;
@@ -59,11 +76,22 @@
 
   .options {
     width: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
+    -ms-flex-line-pack: center;
     align-content: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -145,6 +173,8 @@
     outline: none;
     top: -125px;
     left: 25%;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
     transform: scale(2);
   }
 
@@ -153,6 +183,8 @@
     outline: none;
     top: -125px;
     left: 60%;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
     transform: scale(2);
   }
 
@@ -276,13 +308,23 @@
   .calendar {
     position: absolute;
     margin: -169px 0 0 11px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
   .partners-img {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
     display: block;
     margin: 23px 38px;
@@ -305,29 +347,59 @@
     line-height: 1.54;
     letter-spacing: normal;
     padding: 0px 10px 0 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-line-pack: distribute;
     align-content: space-around;
   }
 
   .copyright-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-line-pack: distribute;
     align-content: space-around;
   }
 
   .copyright-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-line-pack: distribute;
     align-content: space-around;
   }
 

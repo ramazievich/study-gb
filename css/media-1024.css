@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media screen and (max-width: 1024px) {
   .clearfix {
     overflow: auto;
@@ -499,12 +506,31 @@
   .advertising {
     width: 100%;
     min-height: 150px;
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#211b19),
+      to(#4e3427)
+    );
+    background-image: -o-linear-gradient(bottom, #211b19, #4e3427);
     background-image: linear-gradient(to top, #211b19, #4e3427);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-line-pack: center;
     align-content: center;
   }
 
@@ -538,12 +564,14 @@
     text-transform: uppercase;
     text-align: center;
     border-radius: 3px;
+    -webkit-box-shadow: inset 0px -3px 0 0 #736357;
     box-shadow: inset 0px -3px 0 0 #736357;
     background-color: #998675;
     padding: 18px 28px 18px 28px;
     margin-right: 50px;
   }
   .advertising-a:hover {
+    -webkit-box-shadow: inset 0px -3px 0 0 #998675;
     box-shadow: inset 0px -3px 0 0 #998675;
     background-color: #736357;
     color: #fff;
@@ -661,6 +689,8 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -1013,6 +1043,7 @@
   .progress {
     width: 1024px;
     height: 300px;
+    background-image: -o-linear-gradient(bottom, #211b19, #4e3427);
     background-image: -webkit-gradient(
       linear,
       left bottom,
@@ -1020,7 +1051,6 @@
       from(#211b19),
       to(#4e3427)
     );
-    background-image: -o-linear-gradient(bottom, #211b19, #4e3427);
     background-image: linear-gradient(to top, #211b19, #4e3427);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1058,6 +1088,8 @@
   }
 
   .progress-box:hover svg.progress-svg {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     fill: white;
   }
@@ -1076,6 +1108,8 @@
     margin: 30px 0 0 0;
   }
   .progress-box:hover .progress-point {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: rgb(199, 178, 153);
   }
@@ -1096,6 +1130,8 @@
   }
 
   .progress-box:hover .progress-txt {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #ffffff;
   }
@@ -1113,7 +1149,10 @@
   }
 
   .recent-posts-box:hover .recent-posts-img {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
+    -webkit-filter: brightness(60%);
     filter: brightness(60%);
   }
 
@@ -1148,10 +1187,20 @@
   }
 
   .reset-post-wrp {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 40px;
   }
@@ -1164,6 +1213,8 @@
   }
 
   .recent-posts-box:hover {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     background-color: #362f2d;
   }
@@ -1171,9 +1222,17 @@
   .calendar {
     position: absolute;
     margin: -200px 0 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -1191,19 +1250,25 @@
     color: #ffffff;
     padding: 9px 11px 9px 10px;
     background-color: #363636;
-    -moz-border-radius-topleft: 4px;
-    -webkit-border-top-left-radius: 4px;
     border-top-left-radius: 4px;
-    -moz-border-radius-topright: 4px;
-    -webkit-border-top-right-radius: 4px;
     border-top-right-radius: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
   .recent-posts-box:hover .date {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     background-color: #c7b299;
   }
@@ -1222,18 +1287,21 @@
     color: #ffffff;
     padding: 7px 14px 7px 13px;
     background-color: #252525;
-    -moz-border-radius-bottomright: 4px;
-    -webkit-border-bottom-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    -moz-border-radius-bottomleft: 4px;
-    -webkit-border-bottom-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
   .recent-posts-box:hover .month {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     background-color: #a48d72;
   }
@@ -1261,6 +1329,8 @@
   }
 
   .recent-pagination-img:hover {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     background-color: transparent;
     border: solid 2px #d3c1ad;
@@ -1284,6 +1354,8 @@
   }
 
   .recent-posts-box:hover .recent-posts-title {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #c7b299;
   }
@@ -1302,6 +1374,8 @@
   }
 
   .recent-posts-box:hover .recent-posts-title {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #fff;
   }
@@ -1320,11 +1394,15 @@
   }
 
   .recent-posts-box:hover .recent-posts-a {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #c7b299;
   }
 
   .recent-posts-box:hover .recent-posts-a:hover {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #94826c;
   }
@@ -1341,17 +1419,25 @@
   }
 
   .recent-posts-box:hover .recent-posts-a::after {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     border-left: 8px solid #c7b299;
   }
 
   .recent-posts-box:hover .recent-posts-a:hover::after {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     border-left: 8px solid #756755;
   }
 
   .box-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin: 30px 0 50px 0;
   }
@@ -1366,34 +1452,57 @@
     fill: #d1d1d1;
     width: 22px;
     height: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
   .partners {
     background-image: url(../img/partners-bg.jpg);
     min-height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-line-pack: center;
     align-content: center;
   }
 
   .partners-img {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s; /* Время эффекта */
     display: block;
     margin: 20px;
   }
   .partners-img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2); /* Увеличиваем масштаб */
   }
 
   .footer1 {
     background-color: #191919;
     padding: 40px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -1477,6 +1586,8 @@
 
   .about-link:after {
     content: "  border-left: 8px solid #00bff3";
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     display: block;
     position: absolute;
@@ -1490,6 +1601,8 @@
 
   .about-link:hover::after {
     content: "";
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #00bff3;
     display: block;
@@ -1498,7 +1611,12 @@
   .footer-recent-posts {
     min-width: 250px;
     margin: 28px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin: 0 15px 0 15px;
   }
@@ -1551,50 +1669,70 @@
   }
 
   .recent-posts-link:hover .posts-date {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #ffffff;
   }
 
   .recent-posts-link:active .posts-date {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #e2e2e2;
   }
 
   .recent-posts-last:hover .posts-date {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #ffffff;
   }
 
   .recent-posts-last:active .posts-date {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #e2e2e2;
   }
 
   .recent-posts-link:hover .posts-p1 {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #c7b299;
   }
 
   .recent-posts-link:active .posts-p1 {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #b19c84;
   }
 
   .recent-posts-link:hover .posts-p2 {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #c7b299;
   }
 
   .recent-posts-link:active .posts-p2 {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #b19c84;
   }
   .recent-posts-last:hover .posts-p3 {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #c7b299;
   }
 
   .recent-posts-last:active .posts-p3 {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #b19c84;
   }
@@ -1609,11 +1747,15 @@
   }
 
   .twet-api:hover {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #0591b8;
   }
 
   .twet-api:active {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #00bff3;
   }
@@ -1623,11 +1765,15 @@
   }
 
   .twet-link:hover {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #bbbaba;
   }
 
   .twet-link:active {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #959595;
   }
@@ -1653,15 +1799,28 @@
   }
 
   .widget-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-line-pack: center;
     align-content: center;
   }
 
   .widget-img-all {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms; /* Время эффекта */
     display: block;
     margin: 5px;
@@ -1670,6 +1829,8 @@
   }
 
   .widget-img-all:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2); /* Увеличиваем масштаб */
   }
 
@@ -1685,11 +1846,22 @@
     line-height: 1.54;
     letter-spacing: normal;
     padding: 0 20px 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-line-pack: center;
     align-content: center;
   }
 
@@ -1699,16 +1871,22 @@
   }
 
   a.footer2-link:hover {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #c7b299;
   }
 
   a.footer2-link:hover {
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
     color: #a5927a;
   }
 
   .copyright-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -1758,6 +1936,8 @@
   }
 
   .copyright-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
