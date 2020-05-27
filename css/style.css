@@ -1135,7 +1135,7 @@ nav {
 
 .progress {
   width: 1920px;
-  min-height: 300px;
+  height: 300px;
   background-image: -webkit-gradient(
     linear,
     left bottom,
