@@ -13,7 +13,7 @@
 
   .header-block {
     position: fixed;
-    width: 576px;
+    width: 100%;
     padding: 40px;
     background-image: url(../img/header.jpg);
     background-size: cover;
@@ -30,7 +30,7 @@
   }
 
   .options {
-    width: 576px;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -219,7 +219,7 @@
   }
 
   .mobile {
-    width: 576px;
+    width: 100%;
     min-height: 610px;
     background-color: #fbfaf8;
     display: -webkit-box;
@@ -296,14 +296,14 @@
 
   .recent-posts {
     position: relative;
-    width: 576px;
+    width: 100%;
     background-color: #ffffff;
     padding: 50px 0 0 0;
     margin: 0 auto;
   }
 
   .recent-posts-p {
-    width: 576px;
+    width: 100%;
     font-family: "montserrat light", verdana, sans-serif;
     font-size: 18px;
     font-weight: 300;

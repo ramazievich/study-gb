@@ -223,10 +223,6 @@ nav {
   float: left;
 }
 
-.logo:hover {
-  fill: #c7b299;
-}
-
 .logo-txt {
   font-family: "raleway", "open sans", sans-serif;
   font-size: 34px;
@@ -236,8 +232,17 @@ nav {
   padding: 10px 0 0 0;
 }
 
+.logo:hover {
+  fill: #c7b299;
+}
+
 .logo-txt:hover {
   color: #c7b299;
+}
+
+.logo-block:hover {
+  color: #c7b299;
+  fill: #c7b299;
 }
 
 .mobile-menu-checkbox,
@@ -805,8 +810,13 @@ nav {
 }
 
 .products-btn-item:hover {
+  outline: none;
   background-color: #c7b299;
   color: #fff;
+}
+
+.products-btn-item:active {
+  outline: none;
 }
 .products-btn-item:active {
   background-color: #998675;
@@ -971,10 +981,13 @@ nav {
 }
 
 .btn-load-more:hover {
+  outline: none;
   background-color: #d3c1ad;
   color: #fff;
 }
+
 .btn-load-more:active {
+  outline: none;
   background-color: #998675;
   color: #fff;
 }
